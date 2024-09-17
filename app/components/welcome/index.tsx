@@ -347,6 +347,8 @@ const Welcome: FC<IWelcomeProps> = ({
           </div>
         )}
       </div>
+            {/* 200pxのパディングを追加 */}
+      <div className="pb-[200px]"></div>
     </div >
   )
 }
